@@ -1,0 +1,47 @@
+node_modules
+dapp/.env
+coverage
+coverage.json
+typechain
+dapp/typechain-types
+
+#Hardhat files
+dapp/cache
+dapp/artifacts
+
+.idea
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+vote-app/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

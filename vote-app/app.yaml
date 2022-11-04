@@ -1,0 +1,13 @@
+service: vote-sample
+runtime: nodejs16
+
+instance_class: F1
+
+automatic_scaling:
+  max_instances: 10
+  min_instances: 0
+
+handlers:
+  - url: .*
+    script: auto
+    secure: always
